@@ -1,4 +1,4 @@
-include <string.h>
+#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -42,3 +42,4 @@ snprintf(command, BUFSIZE, "wc -c < %s", userFileQuoted);
 system(command);
 
 return 0;
+}
